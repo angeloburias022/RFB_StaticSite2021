@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.knowUs-section {
+    height: 550px;
+    width: 100%;
+    padding: 8rem;
+    justify-content:center;
+   
+}
+
+.caption-txt {
+    
+    font-size: 5rem;
+    text-align: left;
+}
+
+
+.mission-txt, .vision-txt, .knowus-txt, .history-txt {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
