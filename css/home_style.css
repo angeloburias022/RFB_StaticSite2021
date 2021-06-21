@@ -61,6 +61,7 @@ a {
   margin-inline: auto;
   max-width: 45rem;
   padding: 1rem 0 0 0;
+  
 }
 .page-container > * + * {
   margin-top: 1.5rem;
@@ -114,9 +115,19 @@ nav {
   top: -100%;
  
 }
+
+.nav-bg {
+  width: 100%;
+  background: #171717;
+  position: fixed;
+  margin-bottom: 22rem;
+  height: 5rem;
+  z-index: 10;
+
+}
 [id=main-navigation-toggle] ~ label {
   cursor: pointer;
-  position: fixed;
+  position: fixed; /* the nav label will stay at its position */
   right: 1rem;
   top: 1rem;
   z-index: 100;
