@@ -344,14 +344,37 @@ nav {
   margin-inline: auto;
 }
 
+
+@media(max-width:555px) {
+  .site-footer {
+    display: none;
+  }
+  .mini-footer {
+    display: block;
+  }
+}
+
+
+
+
+
+
 .site-footer
 {
+  position: relative;
   background-color:#171717;
   margin-top: 60rem;
+  height: auto;
+  overflow: initial;
+  width: 100%;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
+}
+
+.mini-footer {
+  display: none;
 }
 .site-footer hr
 {
@@ -365,7 +388,7 @@ nav {
 .site-footer h6
 {
   color:#fff;
-  font-size:16px;
+  font-size:1.4vw;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
@@ -376,7 +399,7 @@ nav {
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:limegreen;
   text-decoration:none;
 }
 .footer-links
@@ -390,11 +413,16 @@ nav {
 }
 .footer-links a
 {
+  font-size: 1vw;
   color:#737373
+}
+
+.text-justify {
+  font-size: 1vw;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:limegreen;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -459,7 +487,7 @@ nav {
 .social-icons a{
   background-color:#eceeef;
   color:#818a91;
-  font-size:16px;
+  font-size:2vw;
   display:inline-block;
   line-height:44px;
   width:44px;
