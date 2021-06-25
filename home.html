@@ -167,11 +167,12 @@
     </section>
 
 
-    <section class="customer_review">
-      <div class="review_container">
+    
+    <section class="rfb_office">
+      <div class="office_container">
 
-        <div class="review-label" style="text-align: center;">
-          <h1 style="color: limegreen; font-size: 6vw; text-shadow: 4px 3px #000;"> Customer Review</h1>
+        <div class="office-label" style="text-align: center;">
+          <h1 style="color: limegreen; font-size: 6vw; text-shadow: 3px 3px #000;"> Customer Reviews</h1>
         </div>
 
 
@@ -211,15 +212,46 @@
         
       </div>
     </section>
-
-
-     <!-- Site footer -->
+   
+    <input id="myInput" type="text" placeholder="Search..">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th style="background-color: #171717; color: limegreen; font-weight: bolder;"  scope="col">No.</th>
+          <th style="background-color: #171717; color: limegreen; font-weight: bolder;" scope="col">Aircon Type</th>
+          <th style="background-color: #171717; color: limegreen; font-weight: bolder;" scope="col">Price</th>
+          <th style="background-color: #171717; color: limegreen; font-weight: bolder;"cope="col">Aircon Version</th>
+        </tr>
+      </thead>
+      <tbody id="myTable">
+        <tr>
+          <th scope="row">1</th>
+          <td>Window Type</td>
+          <td>600.00</td>
+          <td>Inverter</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Window Type</td>
+          <td>500.00</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Split Type</td>
+          <td>1,200.00</td>
+          <td>Inverter</td>
+        </tr>
+      </tbody>
+    </table>
+     
+  </main>
+  
+  
+  <!-- Site footer -->
   
     
     
-     
-  </main>
-
   <footer class="site-footer">
 
     <div class="container">
@@ -282,7 +314,8 @@
 
 
   <script src="js/button_To_Top.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/SearchableTable.js"></script>
  <!-- https://css-tricks.com/css-only-carousel/ -->
 
 <!-- partial -->
