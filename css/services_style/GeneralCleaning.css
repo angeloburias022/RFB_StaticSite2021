@@ -1,0 +1,27 @@
+
+.services-anc{
+    text-decoration: none;
+    color: limegreen;
+}
+
+.services-anc:hover {
+    color: #171717;
+
+
+}
+
+#myInput {
+    width: auto;
+    max-width: 30%;
+    
+}
+*:focus {
+    outline: none;
+}
+
+
+.search-bar, .table {
+    padding-left: .2rem;
+    margin-left: 1rem;
+}
+
